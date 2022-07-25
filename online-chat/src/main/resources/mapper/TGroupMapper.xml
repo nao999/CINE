@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.onlinechat.mapper.TGroupMapper">
+
+    <select id="getGroupList" resultType="com.onlinechat.entity.vo.GroupVO">
+        SELECT g.`id`,g.`group_name`,g.`group_profile`
+        FROM group_to_user gu
+        LEFT JOIN t_group g ON g.id = gu.`group_id`
+        WHERE gu.`user_id` = #{id}
+
+    </select>
+    <select id="selectGroupName" resultType="java.lang.String">
+        SELECT `group_name` FROM t_group where `id` = #{groupId}
+    </select>
+
+    <select id="selectGroupProfile" resultType="java.lang.String">
+        SELECT `group_profile` FROM t_group where `id` = #{groupId}
+    </select>
+</mapper>

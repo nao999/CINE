@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.onlinechat.mapper.TUserRecordsMapper">
+
+    <resultMap id="lastMsg" type="com.onlinechat.entity.vo.BriefMsgVO">
+        <result column="friendOrGroupId" property="friendOrGroupId"/>
+        <result column="friendOrGroupName" property="friendOrGroupName"/>
+        <result column="avatar" property="avatar"/>
+		<result column="message_content" property="lastMsg"/>
+		<result column="create_time" property="messageTime"/>
+		<association property="lastMsgUser"
+                     javaType="com.onlinechat.entity.vo.UserVO">
+			<result property="id" column="id"/>
+			<result property="username" column="username"/>
+			<result property="userProfile" column="user_profile"/>
+        </association>
+    </resultMap>
+
+    <select id="getRecords" resultType="com.onlinechat.entity.TUserRecords">
+       SELECT `id`,`user_id`,`receiver_id`,`message_type`,`message_content`,`create_time`
+	        FROM t_user_records
+	        WHERE (`user_id` = #{currentUserId} AND `receiver_id` = #{friendUserId})
+	        OR (`user_id` = #{friendUserId} AND `receiver_id` = #{currentUserId})
+    </select>
+    <select id="getlastMsg" resultMap="lastMsg">
+        SELECT
+	CASE WHEN ur.`user_id`=#{friendId} THEN u1.`id` ELSE u2.`id`END friendOrGroupId,
+	CASE WHEN ur.`user_id`=#{friendId} THEN u1.`username` ELSE u2.`username`END friendOrGroupName,
+	CASE WHEN ur.`user_id`=#{friendId} THEN u1.`user_profile` ELSE u2.`user_profile`END avatar,
+	u1.id,
+	u1.username ,
+	u1.user_profile,
+	ur.message_content,
+	ur.`create_time`
+	FROM t_user_records ur
+	LEFT JOIN t_user u1 ON ur.`user_id`=u1.`id`
+	LEFT JOIN t_user u2 ON ur.`receiver_id`=u2.`id`
+	WHERE (ur.`user_id`=#{currentUserId} AND ur.`receiver_id`=#{friendId})
+	OR (ur.`receiver_id`=#{friendId} AND ur.`user_id`=#{currentUserId})
+	ORDER BY ur.`create_time` DESC
+	LIMIT 1;
+    </select>
+</mapper>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="543454a2-86a5-4bd0-bdfb-913f443c27a6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="online-chat" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zXfe0lN9jfoJsSqNKpdA0afkaE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.onlinechat.security.filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\destop\ja\websocket\online-chat\src\main\java\com\onlinechat\base" />
+      <recent name="D:\destop\ja\websocket\online-chat\src\main\java\com\onlinechat\security" />
+      <recent name="D:\destop\ja\websocket\online-chat\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.onlinechat.service.impl" />
+      <recent name="com.onlinechat.service" />
+      <recent name="com.onlinechat.utils" />
+      <recent name="com.onlinechat.entity" />
+      <recent name="com.exam.test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\destop\ja\websocket\online-chat\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OnlineChatApplication">
+    <configuration name="CodeGenerator.run (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="online-chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onlinechat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.onlinechat" />
+      <option name="MAIN_CLASS_NAME" value="com.onlinechat.CodeGenerator" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmojiConverterTest.testToAlias (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="online-chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onlinechat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.onlinechat" />
+      <option name="MAIN_CLASS_NAME" value="com.onlinechat.EmojiConverterTest" />
+      <option name="METHOD_NAME" value="testToAlias" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmojiConverterTest.testToAlias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="online-chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exam.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exam.test" />
+      <option name="MAIN_CLASS_NAME" value="com.exam.test.EmojiConverterTest" />
+      <option name="METHOD_NAME" value="testToAlias" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="online-chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.onlinechat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.onlinechat.OnlineChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmojiConverterTest.testToAlias" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="online-chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exam.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exam.test" />
+      <option name="MAIN_CLASS_NAME" value="com.exam.test.EmojiConverterTest" />
+      <option name="METHOD_NAME" value="testToAlias" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OnlineChatApplication" />
+        <item itemvalue="JUnit.CodeGenerator.run (1)" />
+        <item itemvalue="JUnit.EmojiConverterTest.testToAlias (1)" />
+        <item itemvalue="JUnit.EmojiConverterTest.testToAlias" />
+        <item itemvalue="TestNG.EmojiConverterTest.testToAlias" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="543454a2-86a5-4bd0-bdfb-913f443c27a6" name="Default Changelist" comment="" />
+      <created>1634299444856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634299444856</updated>
+      <workItem from="1634299447261" duration="3971000" />
+      <workItem from="1634373931908" duration="823000" />
+      <workItem from="1634460449693" duration="686000" />
+      <workItem from="1634961670191" duration="303000" />
+      <workItem from="1634980952047" duration="3738000" />
+      <workItem from="1635040030418" duration="4575000" />
+      <workItem from="1635045267273" duration="10868000" />
+      <workItem from="1635075820230" duration="1189000" />
+      <workItem from="1635127103971" duration="15392000" />
+      <workItem from="1635154067761" duration="414000" />
+      <workItem from="1635595340063" duration="2826000" />
+      <workItem from="1635671004948" duration="1241000" />
+      <workItem from="1635677972689" duration="2068000" />
+      <workItem from="1635682478242" duration="4692000" />
+      <workItem from="1635754925325" duration="9904000" />
+      <workItem from="1635769134512" duration="524000" />
+      <workItem from="1635937946695" duration="7068000" />
+      <workItem from="1636029295484" duration="4841000" />
+      <workItem from="1636075354017" duration="7060000" />
+      <workItem from="1636098382716" duration="4561000" />
+      <workItem from="1636112475782" duration="3432000" />
+      <workItem from="1636160977210" duration="7615000" />
+      <workItem from="1636275141164" duration="1997000" />
+      <workItem from="1636534615546" duration="695000" />
+      <workItem from="1636545358083" duration="622000" />
+      <workItem from="1636593891140" duration="5271000" />
+      <workItem from="1636614333435" duration="1887000" />
+      <workItem from="1636627048590" duration="7163000" />
+      <workItem from="1636679474604" duration="5549000" />
+      <workItem from="1636717001636" duration="5535000" />
+      <workItem from="1636770350903" duration="648000" />
+      <workItem from="1636788655935" duration="2736000" />
+      <workItem from="1636854655825" duration="2056000" />
+      <workItem from="1636859666778" duration="2301000" />
+      <workItem from="1636874057357" duration="7757000" />
+      <workItem from="1636938549509" duration="1290000" />
+      <workItem from="1636959067125" duration="2848000" />
+      <workItem from="1636975029961" duration="3283000" />
+      <workItem from="1637053343984" duration="1563000" />
+      <workItem from="1637067911869" duration="608000" />
+      <workItem from="1637117922778" duration="149000" />
+      <workItem from="1649059354612" duration="676000" />
+      <workItem from="1649063872701" duration="617000" />
+      <workItem from="1649064706535" duration="604000" />
+      <workItem from="1649557877102" duration="10000" />
+      <workItem from="1654933700374" duration="6074000" />
+      <workItem from="1655024919734" duration="648000" />
+      <workItem from="1655105539322" duration="2105000" />
+      <workItem from="1655119222193" duration="5246000" />
+      <workItem from="1655205370614" duration="3775000" />
+      <workItem from="1655370597734" duration="3568000" />
+      <workItem from="1655433920292" duration="2519000" />
+      <workItem from="1655451726094" duration="628000" />
+      <workItem from="1655472823765" duration="667000" />
+      <workItem from="1655521379981" duration="1748000" />
+      <workItem from="1655544661620" duration="796000" />
+      <workItem from="1655985175634" duration="711000" />
+      <workItem from="1656571788215" duration="4827000" />
+      <workItem from="1656588414159" duration="2592000" />
+      <workItem from="1656639195074" duration="7119000" />
+      <workItem from="1656660429282" duration="555000" />
+      <workItem from="1656661002757" duration="8647000" />
+      <workItem from="1656676266882" duration="4459000" />
+      <workItem from="1656725338753" duration="3723000" />
+      <workItem from="1656836656997" duration="4532000" />
+      <workItem from="1656919028390" duration="3876000" />
+      <workItem from="1656933998419" duration="5028000" />
+      <workItem from="1656940494821" duration="1435000" />
+      <workItem from="1657020082174" duration="3618000" />
+      <workItem from="1657099108230" duration="1228000" />
+      <workItem from="1657113367225" duration="718000" />
+      <workItem from="1657630321384" duration="607000" />
+      <workItem from="1657680513527" duration="1270000" />
+      <workItem from="1657702136103" duration="653000" />
+      <workItem from="1657715397768" duration="8000" />
+      <workItem from="1658405712978" duration="5048000" />
+      <workItem from="1658460441015" duration="241000" />
+      <workItem from="1658478826276" duration="3575000" />
+      <workItem from="1658489851428" duration="7289000" />
+      <workItem from="1658538836699" duration="3694000" />
+      <workItem from="1658563150261" duration="5615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="454" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1657022550687">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1657022550687" />
+    <state x="404" y="110" key="#xdebugger.evaluate" timestamp="1658410863059">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="404" y="110" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1658410863059" />
+    <state width="905" height="466" key="DebuggerActiveHint" timestamp="1658493726734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="905" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1658493726734" />
+    <state x="611" y="183" key="FileChooserDialogImpl" timestamp="1658479686111">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="611" y="183" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1658479686111" />
+    <state width="1493" height="109" key="GridCell.Tab.0.bottom" timestamp="1658570308512">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658570308512" />
+    <state width="1493" height="109" key="GridCell.Tab.0.center" timestamp="1658570308511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1658570308511" />
+    <state width="1493" height="109" key="GridCell.Tab.0.left" timestamp="1658570308511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1658570308511" />
+    <state width="1493" height="109" key="GridCell.Tab.0.right" timestamp="1658570308511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="109" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1658570308511" />
+    <state width="1493" height="111" key="GridCell.Tab.1.bottom" timestamp="1658570308507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="111" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658570308507" />
+    <state width="1493" height="111" key="GridCell.Tab.1.center" timestamp="1658570308506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="111" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1658570308506" />
+    <state width="1493" height="111" key="GridCell.Tab.1.left" timestamp="1658570308506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="111" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1658570308506" />
+    <state width="1493" height="111" key="GridCell.Tab.1.right" timestamp="1658570308507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="111" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1658570308507" />
+    <state width="1493" height="111" key="GridCell.Tab.2.bottom" timestamp="1658570308507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="111" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658570308507" />
+    <state width="1493" height="111" key="GridCell.Tab.2.center" timestamp="1658570308507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="111" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1658570308507" />
+    <state width="1493" height="111" key="GridCell.Tab.2.left" timestamp="1658570308507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="111" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1658570308507" />
+    <state width="1493" height="111" key="GridCell.Tab.2.right" timestamp="1658570308507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="111" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1658570308507" />
+    <state x="150" y="50" key="SettingsEditor" timestamp="1656919900858">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="150" y="50" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1656919900858" />
+    <state x="444" y="221" key="com.intellij.ide.util.TipDialog" timestamp="1657715397735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="221" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1657715397735" />
+    <state x="493" y="138" width="891" height="534" key="find.popup" timestamp="1658565797146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="138" width="891" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1658565797146" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/onlinechat/controller/TUserController.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/onlinechat/EmojiConverterTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/onlinechat/controller/TGroupController.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/onlinechat/controller/TGroupController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/onlinechat/utils/Utils.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/onlinechat/security/security/TokenLogoutHandler.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/onlinechat/controller/TUserController.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

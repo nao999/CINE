@@ -1,0 +1,93 @@
+{
+  "id": "2873210",
+  "name": "online-chat",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8097047",
+      "name": "新的朋友",
+      "font_class": "xindepengyou",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "11076770",
+      "name": "好友申请",
+      "font_class": "haoyoushenqing",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "1316288",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "201555",
+      "name": "表情",
+      "font_class": "biaoqing",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5387527",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "eaf3",
+      "unicode_decimal": 60147
+    },
+    {
+      "icon_id": "1309",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1017255",
+      "name": "安卓",
+      "font_class": "anzhuo",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "2593578",
+      "name": "群聊",
+      "font_class": "qunliao",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "6399123",
+      "name": "好友",
+      "font_class": "weibiaoti--",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "6762077",
+      "name": "机器人",
+      "font_class": "jiqiren",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "12889877",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "18336448",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}
